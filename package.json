@@ -1,5 +1,5 @@
 {
-  "name": "react-native-select-dropdown",
+  "name": "react-native-dropdown",
   "version": "1.0.0",
   "description": "Dropdown selection for react native",
   "main": "index.js",
