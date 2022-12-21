@@ -3,7 +3,7 @@
 
 ## Usage
 
-  <Select title="Currency"
+ ` <Select title="Currency"
         data={data}
         search={isEnabled}
         closeButton={isEnabledButton}
@@ -11,4 +11,4 @@
         searchTextInputStyle={{ backgroundColor: 'white' }}
         buttonStyle={{ backgroundColor: 'red', borderWidth: 0 }}
         buttonTextStyle={{ color: 'white' }}
-    />
+    />`
