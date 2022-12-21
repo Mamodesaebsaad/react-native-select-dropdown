@@ -1,12 +1,15 @@
 {
   "name": "react-native-dropdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dropdown selection for react native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Mamode Saëb Sa'ad",
+  "author": "Mamode Saëb Saad",
+  "repository": {
+    "url": "git://https://github.com/Mamodesaebsaad/react-native-select-dropdown.git"
+  },
   "license": "ISC",
   "peerDependencies": {
     "react": "17.0.2",
