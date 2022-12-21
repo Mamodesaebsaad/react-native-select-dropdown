@@ -1,0 +1,15 @@
+{
+  "name": "react-native-select-dropdown",
+  "version": "1.0.0",
+  "description": "Dropdown selection for react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mamode Saëb Sa'ad",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "17.0.2",
+    "react-native": "0.68.2"
+  }
+}
