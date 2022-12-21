@@ -15,8 +15,11 @@ npm i @mamodesaebsaad/rn-select-dropdown
 ```
 import Select from "@mamodesaebsaad/rn-select-dropdown";
 ...
+const [value, setValue] = React.useState();
+...
 <Select title="Currency"
         data={["£", "$", "MUR", "€"]}
+        onChangeValue={setValue}
         search={true}
         closeButton={true}
         searchBoxContainer={{ borderWidth: 0, backgroundColor: '#f5f5f5' }}

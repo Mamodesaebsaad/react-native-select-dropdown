@@ -20,7 +20,7 @@ const Select = ({
   title,
   data,
   value,
-  onChangeText,
+  onChangeValue,
   search,
   closeButton,
   style,
@@ -70,10 +70,10 @@ const Select = ({
     fadeIn();
   }, [value]);
 
-  console.log(text);
 
   const onSelectItem = value => {
     setText(value);
+    onChangeValue(value);
     fadeIn();
     onChangeSearchText();
     setFilterList(data);
@@ -126,6 +126,7 @@ const Select = ({
             onPress={() => {
               fadeOut();
               setText();
+              onChangeValue(null);
             }}>
             <View
               style={{
