@@ -23,6 +23,7 @@ const [value, setValue] = React.useState();
 ...
 <Select title="Currency"
         data={["£", "$", "MUR", "€"]}
+        value={value}
         onChangeValue={setValue}
         search={true}
         closeButton={true}
