@@ -1,6 +1,6 @@
 {
   "name": "@mamodesaebsaad/rn-select-dropdown",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Dropdown selection for react native",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,17 @@
   "repository": {
     "url": "git://https://github.com/Mamodesaebsaad/react-native-select-dropdown.git"
   },
+  "keywords": [
+    "react-native",
+    "android",
+    "ios",
+    "dropdown",
+    "select",
+    "option",
+    "selector",
+    "picker",
+    "modal"
+  ],
   "license": "ISC",
   "peerDependencies": {
     "react": "17.0.2",

@@ -38,6 +38,14 @@ const [value, setValue] = React.useState();
 ### Props
 
 - [`data`](#data)
+- [`value`](#value)
+- [`onChangeValue`](#onChangeValue)
+- [`search`](#search)
+- [`closeButton`](#closeButton)
+- [`searchBoxContainer`](#searchBoxContainer)
+- [`searchTextInputStyle`](#searchTextInputStyle)
+- [`buttonStyle`](#buttonStyle)
+- [`buttonTextStyle`](#buttonTextStyle)
 
 ---
 
@@ -48,6 +56,86 @@ array of data that will be represented in dropdown
 | Type  | Required |
 | ----  | -------- |
 | array | Yes      |
+
+---
+
+### value
+
+value of the selected option
+
+| Type   | Required |
+| ----   | -------- |
+| string | Yes      |
+
+---
+
+### onChangeValue
+
+Method onChange 
+
+| Type            | Required |
+| ----            | -------- |
+| Hook (useState) | Yes      |
+
+---
+
+### search
+
+Enable/Disable Search in the dropdown 
+
+| Type    | Required |
+| ----    | -------- |
+| boolean | Yes      |
+
+---
+
+### closeButton
+
+Enable/Disable close button in the dropdown 
+
+| Type    | Required |
+| ----    | -------- |
+| boolean | Yes      |
+
+---
+
+### searchBoxContainer
+
+Styling of the SearchBox Container 
+
+| Type    | Required |
+| ----    | -------- |
+| object  | No      |
+
+---
+
+### searchTextInputStyle
+
+Styling of the SearchBox Input style 
+
+| Type    | Required |
+| ----    | -------- |
+| object  | No      |
+
+---
+
+### buttonStyle
+
+Styling of the close button style in the dropdown 
+
+| Type    | Required |
+| ----    | -------- |
+| object  | No      |
+
+---
+
+### buttonTextStyle
+
+Styling of the close button text style in the dropdown 
+
+| Type    | Required |
+| ----    | -------- |
+| object  | No      |
 
 ---
 
