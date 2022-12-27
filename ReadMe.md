@@ -2,6 +2,10 @@
 
 rn-select-dropdown is a customized select menu for react native that works for android and ios platforms.
 
+<p float="left">
+  <img src="https://media.giphy.com/media/aWVSw8HD3N0QWeEuyC/giphy.gif" width="270">
+</p>
+
 ## Installation
 
 #### # Using npm
