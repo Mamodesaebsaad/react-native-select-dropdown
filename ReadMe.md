@@ -37,3 +37,17 @@ const [value, setValue] = React.useState();
 
 ### Props
 
+- [`data`](#data)
+
+---
+
+### data
+
+array of data that will be represented in dropdown
+
+| Type  | Required |
+| ----  | -------- |
+| array | Yes      |
+
+---
+
