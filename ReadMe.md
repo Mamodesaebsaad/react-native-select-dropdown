@@ -4,6 +4,7 @@ rn-select-dropdown is a customized select menu for react native that works for a
 
 <p float="left">
   <img src="https://media.giphy.com/media/aWVSw8HD3N0QWeEuyC/giphy.gif" width="270">
+  <img src="https://imgur.com/a/AWLZbvj">
 </p>
 
 ## Installation
